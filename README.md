@@ -1,25 +1,25 @@
-![Bruce Main Menu](./media/pictures/bruce_banner.jpg)
+![GHOST Main Menu](./media/pictures/bruce_banner.jpg)
 
-# :shark: Bruce
+# :shark: GHOST firmware
 
-Bruce is meant to be a versatile ESP32 firmware that supports a ton of offensive features focusing on facilitating Red Team operations.
+GHOST is meant to be a versatile ESP32 firmware that supports a ton of offensive features focusing on facilitating Red Team operations.
 It also supports m5stack products and works great with Cardputer, Sticks, M5Cores, T-Decks and T-Embeds.
 
 ## :building_construction: How to install
 
-### The easiest way to install Bruce is using our official Web Flasher!
+### The easiest way to install GHOST is using our official Web Flasher!
 ### Check out: https://bruce.computer/flasher
 
 Alternatively, you can download the latest binary from releases or actions and flash locally using esptool.py
 ```sh
-esptool.py --port /dev/ttyACM0 write_flash 0x00000 Bruce-<device>.bin
+esptool.py --port /dev/ttyACM0 write_flash 0x00000 GHOST-<device>.bin
 ```
 
 **For m5stack devices**
 
 If you already use M5Launcher to manage your m5stack device, you can install it with OTA
 
-Or you can burn it directly from the [m5burner tool](https://docs.m5stack.com/en/download), just search for 'Bruce' (My official builds will be uploaded by "owner" and have photos.) on the device category you want to and click on burn
+Or you can burn it directly from the [m5burner tool](https://docs.m5stack.com/en/download), just search for 'GHOST' (My official builds will be uploaded by "owner" and have photos.) on the device category you want to and click on burn
 
 
 ## :keyboard: Discord Server
@@ -28,7 +28,7 @@ Contact us in our [Discord Server](https://discord.gg/WJ9XF9czVT)!
 
 ## :bookmark_tabs: Wiki
 
-For more information on each function supported by Bruce, [read our wiki here](https://github.com/pr3y/Bruce/wiki).
+For more information on each function supported by GHOST, [read our wiki here](https://github.com/pr3y/Bruce/wiki).
 Also, [read our FAQ](https://github.com/pr3y/Bruce/wiki/FAQ)
 
 ## :computer: List of Features
@@ -56,7 +56,7 @@ Also, [read our FAQ](https://github.com/pr3y/Bruce/wiki/FAQ)
 - [x] [Evil Portal](https://github.com/pr3y/Bruce/wiki/WiFi#evil-portal)  
 - [x] [Scan Hosts](https://github.com/pr3y/Bruce/wiki/WiFi#evil-portal)  
 - [x] [Wireguard Tunneling](https://github.com/pr3y/Bruce/wiki/WiFi#wireguard-tunneling)  
-- [x] Brucegotchi
+- [x] GHOSTgotchi
   - [x] Pwnagotchi friend  
   - [x] Pwngrid spam faces & names  
     - [x] [Optional] DoScreen a very long name and face  
@@ -77,43 +77,6 @@ Also, [read our FAQ](https://github.com/pr3y/Bruce/wiki/FAQ)
 - [X] Spam All
 </details>
 
-
-<details>
-  <summary><h2>RF</h2></summary>
-    
-- [x] Scan/Copy
-- [x] [Custom SubGhz](https://github.com/pr3y/Bruce/wiki/RF#replay-payloads-like-flipper)
-- [x] Spectrum
-- [x] Jammer Full (sends a full squared wave into output)
-- [x] Jammer Intermittent (sends PWM signal into output)
-- [x] Config
-    - [X] RF TX Pin
-    - [X] RF RX Pin
-    - [X] RF Module
-        - [x] RF433 T/R M5Stack
-        - [x] [CC1101 (Sub-Ghz)](https://github.com/pr3y/Bruce/wiki/CC1101)
-    - [X] RF Frequency
-- [x] Replay
-</details>
-
-<details>
-  <summary><h2>RFID</h2></summary>
-    
-- [x] Read tag
-- [x] Read 125kHz
-- [x] Clone tag
-- [x] Write NDEF records
-- [x] Amiibolink
-- [x] Chameleon
-- [x] Write data
-- [x] Erase data
-- [x] Save file
-- [x] Load file
-- [x] Config
-    - [X] [RFID Module](https://github.com/pr3y/Bruce/wiki/RFID#supported-modules)
-        - [x] PN532
-- [ ] Emulate tag
-</details>
 
 <details>
   <summary><h2>IR</h2></summary>
@@ -224,17 +187,17 @@ Also, [read our FAQ](https://github.com/pr3y/Bruce/wiki/FAQ)
 ² CYD and StickCPlus 1.1 have a LITE_VERSION version for Launcher Compatibility
 ¹ Core, CYD and StickCs Bad-USB: [here](https://github.com/pr3y/Bruce/wiki/Others#badusb)
 
-*LITE_MODE*: TelNet, SSH, DPWO, WireGuard, ScanHosts, RawSniffer, Brucegotchi, BLEBacon, BLEScan, Interpreter and OpenHaystack are NOT available for M5Launcher Compatibility
+*LITE_MODE*: TelNet, SSH, DPWO, WireGuard, ScanHosts, RawSniffer, GHOSTgotchi, BLEBacon, BLEScan, Interpreter and OpenHaystack are NOT available for M5Launcher Compatibility
 
 
 ## :sparkles: Why and how does it look?
 
-Bruce stems from a keen observation within the community focused on devices like Flipper Zero. While these devices offered a glimpse into the world of offensive security, there was a palpable sense that something more could be achieved without being that overpriced, particularly with the robust and modular hardware ecosystem provided by ESP32 Devices, Lilygo and M5Stack products.
+GHOST stems from a keen observation within the community focused on devices like Flipper Zero. While these devices offered a glimpse into the world of offensive security, there was a palpable sense that something more could be achieved without being that overpriced, particularly with the robust and modular hardware ecosystem provided by ESP32 Devices, Lilygo and M5Stack products.
 
-![Bruce Main Menu](./media/pictures/pic1.png)
-![Bruce on M5Core](./media/pictures/core.png)
-![Bruce on Stick](./media/pictures/stick.png)
-![Bruce on CYD](./media/pictures/cyd.png)
+![GHOST Main Menu](./media/pictures/pic1.png)
+![GHOST on M5Core](./media/pictures/core.png)
+![GHOST on Stick](./media/pictures/stick.png)
+![GHOST on CYD](./media/pictures/cyd.png)
 
 Other media can be [found here](./media/).
 
@@ -246,11 +209,11 @@ Other media can be [found here](./media/).
 + [@eadmaster](https://github.com/eadmaster) for adding a lot of features.
 + [@rennancockles](https://github.com/rennancockles) for a lot of RFID code, refactoring and others features.
 + [@7h30th3r0n3](https://github.com/7h30th3r0n3) refactoring and a lot of help with WiFi attacks.
-+ [Smoochiee]() for Bruce PCB design.
++ [Smoochiee]() for GHOST PCB design.
 + [TH3_KR4K3N]() for Stick cplus extender PCB design.
 + Everyone who contributed in some way to the project, thanks :heart:
 
 ## :construction: Disclaimer
 
-Bruce is a tool for cyber offensive and red team operations, distributed under the terms of the Affero General Public License (AGPL). It is intended for legal and authorized security testing purposes only. Use of this software for any malicious or unauthorized activities is strictly prohibited. By downloading, installing, or using Bruce, you agree to comply with all applicable laws and regulations. This software is provided free of charge, and we do not accept payments for copies or modifications. The developers of Bruce assume no liability for any misuse of the software. Use at your own risk.
+GHOST is a tool for cyber offensive and red team operations, distributed under the terms of the Affero General Public License (AGPL). It is intended for legal and authorized security testing purposes only. Use of this software for any malicious or unauthorized activities is strictly prohibited. By downloading, installing, or using GHOST, you agree to comply with all applicable laws and regulations. This software is provided free of charge, and we do not accept payments for copies or modifications. The developers of GHOST assume no liability for any misuse of the software. Use at your own risk.
 
